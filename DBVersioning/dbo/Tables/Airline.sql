@@ -3,7 +3,6 @@
     [Name]   VARCHAR (50) NULL,
     [ACode]  VARCHAR (15) NULL,
     [Active] BIT          DEFAULT ((1)) NULL,
-	CreatedOn datetime,ModifiedOn datetime,
     PRIMARY KEY CLUSTERED ([ID] ASC)
 );
 
