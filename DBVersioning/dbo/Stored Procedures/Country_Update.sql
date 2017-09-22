@@ -11,7 +11,7 @@ CREATE procedure [dbo].[Country_Update]
  
 As 
 Begin 
-update Country  set Name=@Name,CCode2=@CCode2,CCode3=@CCode3,Active=@Active where ID=@ID 
+update Country  set Name=@Name,CCode2=@CCode2,CCode3=@CCode3,Active=@Active where ID=@ID and   isnull(Active,1)=1 
 select @retval='U'
 Select 'Inserted' as results
 End
