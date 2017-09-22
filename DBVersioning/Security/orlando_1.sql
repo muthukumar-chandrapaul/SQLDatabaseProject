@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [orlando]
+    WITH PASSWORD = N'tkNQiO|hL`SgfklurlopImkpmsFT7_&#$!~<nwJvpjelbzud', SID = 0x5D097DAE0DA0F04993F8DC7954C0FB0E, DEFAULT_DATABASE = [OrlandoHolidays], DEFAULT_LANGUAGE = [us_english], CHECK_POLICY = OFF;
+
